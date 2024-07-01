@@ -26,7 +26,7 @@ class Home extends StatelessWidget {
           Container(
             color: Colors.blueGrey[900],
             padding: const EdgeInsets.all(33),
-            child: const CoffeePrefs() ,
+            child: const CoffeePrefs(),
           ),
         ],
       ),
