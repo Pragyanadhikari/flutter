@@ -1,5 +1,6 @@
 import 'package:coffe_project/coffee_prefs.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -28,6 +29,12 @@ class Home extends StatelessWidget {
             padding: const EdgeInsets.all(33),
             child: const CoffeePrefs(),
           ),
+          Expanded(
+              child: Image.asset(
+            'assest/img/coffee.jpeg',
+            fit: BoxFit.fitWidth,
+            alignment: Alignment.bottomCenter,
+          )),
         ],
       ),
     );
